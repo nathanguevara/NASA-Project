@@ -13,13 +13,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-div.main-container {
-
-}
-header {
-    color: white;
- 
-}
 p {
     font-size: 12pt;
     display: flex;
@@ -31,6 +24,7 @@ section {
 
 }
 article {
+    font-size: 20pt;
     width: 270px;
     border: solid 20px rgb(224, 222, 222);
     height: 304px;
