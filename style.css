@@ -15,6 +15,7 @@ main {
 }
 p {
     font-size: 12pt;
+    font-family: 'Cairo', sans-serif;
     display: flex;
     justify-content: left;
 }
@@ -25,8 +26,13 @@ section {
 }
 article {
     font-size: 20pt;
+    font-family: 'Kanit', sans-serif;
     width: 270px;
     border: solid 20px rgb(224, 222, 222);
     height: 304px;
     background-color: rgb(224, 222, 222);
+}
+form {
+    font-size: 12pt;
+    font-family: 'Cairo', sans-serif;
 }
