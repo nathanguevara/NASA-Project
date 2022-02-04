@@ -1,11 +1,30 @@
-main {
-    width: 850px;
-    height: 450;
+body {
     margin: 0 auto;
-    background-image: url(../NASA-Project/galaxy.jpg);
+    width: 850px;
+    height: 100%;
+}
+main {
+    height: 450px;
+    margin: 0 auto;
+    /* background-image: url(../NASA-Project/img/galaxy.jpg); */
+    background-color: aqua;
     color:white;
 }
-
+div.main-container {
+    border: 2px solid red;
+}
+header
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    height: 324px
+}
 article {
     width: 270px;
     height: 374px;
