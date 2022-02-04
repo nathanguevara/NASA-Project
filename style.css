@@ -1,0 +1,13 @@
+main {
+    width: 850px;
+    height: 450;
+    margin: 0 auto;
+    background-image: url(../NASA-Project/galaxy.jpg);
+    color:white;
+}
+
+article {
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
+}
