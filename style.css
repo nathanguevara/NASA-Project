@@ -2,31 +2,37 @@ body {
     margin: 0 auto;
     width: 850px;
     height: 100%;
+    font-family: 'Kanit', sans-serif;
 }
 main {
     height: 450px;
-    margin: 0 auto;
-    /* background-image: url(../NASA-Project/img/galaxy.jpg); */
-    background-color: aqua;
-    color:white;
-}
-div.main-container {
-    border: 2px solid red;
-}
-header
-p {
-    font-family: 'Kanit', sans-serif;
+    color:rgb(255, 255, 255);
+    background-image: url(../img/galaxy.jpg);
     font-size: 50pt;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+div.main-container {
+
+}
+header {
+    color: white;
+ 
+}
+p {
+    font-size: 12pt;
+    display: flex;
+    justify-content: left;
+}
 section {
     display: flex;
-    height: 324px
+    justify-content: space-evenly;
+
 }
 article {
     width: 270px;
-    height: 374px;
+    border: solid 20px rgb(224, 222, 222);
+    height: 304px;
     background-color: rgb(224, 222, 222);
 }
