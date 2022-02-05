@@ -36,3 +36,22 @@ form {
     font-size: 12pt;
     font-family: 'Cairo', sans-serif;
 }
+input.sendButton {
+    background-color: #4D4D4D;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+a:hover, a:active, a:focus {
+  color:#c33;
+}
